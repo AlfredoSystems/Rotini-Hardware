@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -121,14 +121,19 @@
       },
       "track_widths": [
         0.0,
+        0.1016,
         0.2032,
-        0.3048,
+        0.2794,
         0.4064
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
         },
         {
           "diameter": 0.6096,
@@ -447,10 +452,6 @@
     [
       "c8ae6305-850c-49e4-9b5b-36e9c53035a5",
       "LED2"
-    ],
-    [
-      "97cbf106-270e-4d38-bd5f-f22fce9cc28f",
-      "LED3"
     ]
   ],
   "text_variables": {}
