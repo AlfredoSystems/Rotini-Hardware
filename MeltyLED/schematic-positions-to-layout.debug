@@ -1,0 +1,21 @@
+work_dir = C:\Users\Jacob\Documents\KiCAD\SimpleMelt-Hardware\MeltyLED
+in_pcb_file = MeltyLED.kicad_pcb
+root_schematic_file = MeltyLED.kicad_sch
+store to sheet[] = MeltyLED.kicad_sch
+/0d530bf9-df28-45f4-88ce-4c2fc8ce092c ('R1', (12954, 4318), '')
+/28a07cf7-d914-4677-a614-ae92feca2ace ('J1', (10160, 5588), '')
+/2e7f1ca1-e363-40c9-8f88-3cc8695689b0 ('R3', (14732, 4318), '')
+/44b6b879-1c81-4f26-a288-8d4bdb3d2a1a ('D3', (12954, 5080), '')
+/6f48eb79-7ab4-4d6b-b094-deaceb9e2866 ('D2', (12954, 5842), '')
+/7329d8b9-f870-44d1-a2e9-3bf3bfdfbae7 ('R2', (13843, 4318), '')
+/a0671f32-2972-455f-a733-90c6d67a8a14 ('D1', (12954, 6604), '')
+ /
+  NOT FOUND
+ /
+  NOT FOUND
+R1 /0d530bf9-df28-45f4-88ce-4c2fc8ce092c
+  path = /0d530bf9-df28-45f4-88ce-4c2fc8ce092c   sheet =    ref = R1   pos = (12954, 4318)   new_pos = (194310000, 64770000)
+D3 /44b6b879-1c81-4f26-a288-8d4bdb3d2a1a
+  path = /44b6b879-1c81-4f26-a288-8d4bdb3d2a1a   sheet =    ref = D3   pos = (12954, 5080)   new_pos = (194310000, 76200000)
+D2 /6f48eb79-7ab4-4d6b-b094-deaceb9e2866
+  path = /6f48eb79-7ab4-4d6b-b094-deaceb9e2866   sheet =    ref = D2   pos = (12954, 5842)   new_pos = (194310000, 87630000)
