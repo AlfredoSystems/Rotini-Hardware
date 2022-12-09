@@ -1,4 +1,4 @@
-20276705451671314
+20280071561239325
 AlfredoFootprints
 AlfredoNunchucky
 
@@ -224,6 +224,13 @@ Through hole socket strip THT 1x01 2.54mm single row
 1
 1
 AlfredoFootprints
+PogoPad1
+
+
+0
+1
+1
+AlfredoFootprints
 Power-DFN-3x3A
 8-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
 DFN 0.65
@@ -241,6 +248,13 @@ AlfredoFootprints
 R_0603_1608Metric
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
+0
+2
+2
+AlfredoFootprints
+SMD_LED_5730
+
+
 0
 2
 2
