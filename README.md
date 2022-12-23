@@ -2,7 +2,7 @@
 Control system PCB files for The Greatest Challenge. This Repo includes KiCAD projects for two boards, "Rotini" and "Eggman3". "Rotini" is the main control board with Built-n ELRS reciever, inertia sensing, and the main MCU. "Eggman3" is a power distribution board used to compactly mount the main switch, bulk capacitors, and battery connectors.
 
 <p align="">
-<img src="images/Rotini-Render.png"  height="250px"><img src="images/Rotini-Electronics.png"  height="250px">
+<img src="images/Rotini-Render.png"  height="200px"><img src="images/Rotini-Electronics.png"  height="200px">
 </p>
 
 ## Rotini Features
