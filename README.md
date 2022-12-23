@@ -2,7 +2,7 @@
 Rotini is the smallest all-in-one melty brain control system solution in the world. Rotini includes voltage regulation, reverse polatiry protection, high power LED drivers, an ELRS tranciever, and inertia sensing, all controlled by its ESP32-S2 main MCU.
 
 <p align="">
-<img src="images/Rotini-Render.png"  height="250px"><img src="images/Rotini-Electronics.png"  height="250px">
+<img src="images/Rotini-Render.png"  height="200px"><img src="images/Rotini-Electronics.png"  height="200px">
 </p>
 
 ## Rotini Features
