@@ -1,5 +1,5 @@
 # Rotini-Hardware
-Control system PCB files for The Greatest Challenge. This Repo includes KiCAD projects for two boards, "Rotini" and "Eggman3". "Rotini" is the main control board with Built-n ELRS reciever, inertia sensing, and the main MCU. "Eggman3" is a power distribution board used to compactly mount the main switch, bulk capacitors, and battery connectors.
+Rotini is the smallest all-in-one melty brain control system solution in the world. Rotini includes voltage regulation, reverse polatiry protection, high power LED drivers, an ELRS tranciever, and inertia sensing, all controlled by its ESP32-S2 main MCU.
 
 <p align="">
 <img src="images/Rotini-Render.png"  height="250px"><img src="images/Rotini-Electronics.png"  height="250px">
