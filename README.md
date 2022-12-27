@@ -11,3 +11,12 @@ Rotini is the smallest all-in-one melty brain control system solution in the wor
 * ESP8285 with SX1280 LoRa transceiver run ELRS 3.0.0 providing reliable wireless communication.
 * SY8253ADC switching regulator provides up to 1A at 3.3V. Maximum input voltage of 27V. 
 * USB-C port provides swift and robust serial programming interface
+
+## Possible features for V3
+* TVS diode protection for GPIO pins (including LED drivers)
+* Hookup accelerometer interrupt pins
+* Investigate issue where rarely code does not run on reboot
+* Use PCB trace antenna for main Antenna?
+* move away from JST SH?
+* option to provide 3.3v or Vin to leds?
+* remove pins for h3lis Sparkfun breakout?
