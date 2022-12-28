@@ -13,7 +13,8 @@ Rotini is the smallest all-in-one melty brain control system solution in the wor
 * USB-C port provides swift and robust serial programming interface
 
 ## Manufacturing
-⚠️ Beware: we offer these files without warranty of any kind, express or implied. Use them at your own risk.
+⚠️ **Beware: we offer these files without warranty of any kind, express or implied. Use them at your own risk.**
+
 Rotini can be entirely manufactured and assembled by JLCPCB! THey will need the gerber, BOM, and pick-and-place files found in this repo. The one caveat is JLC does not have a 400g accelerometer in their library. There are three ways to get the 400g accelerometer rotini needs on board:
 1) Order H3LIS331DL via JLCPCBs global part sourcing system well before ordering your boards. This is the best way to do it but will add a few weeks to the lead time.
 2) Order the H3LIS331DL break out from Sparkfun. This can be soldered onto Rotini with standard male dupont headers. Easy and fast but is the least clean solution.
