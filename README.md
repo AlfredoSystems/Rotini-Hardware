@@ -12,6 +12,13 @@ Rotini is the smallest all-in-one melty brain control system solution in the wor
 * SY8253ADC switching regulator provides up to 1A at 3.3V. Maximum input voltage of 27V!
 * USB-C port provides swift and robust serial programming interface
 
+## Manufacturing
+⚠️ Beware: we offer these files without warranty of any kind, express or implied. Use them at your own risk.
+Rotini can be entirely manufactured and assembled by JLCPCB! THey will need the gerber, BOM, and pick-and-place files found in this repo. The one caveat is JLC does not have a 400g accelerometer in their library. There are three ways to get the 400g accelerometer rotini needs on board:
+1) Order H3LIS331DL via JLCPCBs global part sourcing system well before ordering your boards. This is the best way to do it but will add a few weeks to the lead time.
+2) Order the H3LIS331DL break out from Sparkfun. This can be soldered onto Rotini with standard male dupont headers. Easy and fast but is the least clean solution.
+3) Order H3LIS331DL chips yourself and solder them on with a hot gun. Not recommended but is the fastest solution that avoids the sparkfun breakout.
+
 ## Possible features for V3
 * TVS diode protection for GPIO pins (including LED drivers)
 * Hookup accelerometer interrupt pins
