@@ -12,6 +12,9 @@ Rotini is the smallest all-in-one melty brain control system solution in the wor
 * SY8253ADC switching regulator provides up to 1A at 3.3V. Maximum input voltage of 27V!
 * USB-C port provides swift and robust serial programming interface
 
+## Eratta
+* C14 SHOULD NOT BE INCLUDED. Do not include it in the BOM. Including C14 will cause inconsistent boot behavior
+
 ## Manufacturing
 ⚠️ **Beware: we offer these files without warranty of any kind, express or implied. Use them at your own risk.**
 
@@ -23,7 +26,7 @@ Rotini can be entirely manufactured and assembled by JLCPCB! THey will need the 
 ## Possible features for V3
 * TVS diode protection for GPIO pins (including LED drivers)
 * Hookup accelerometer interrupt pins
-* Investigate issue where rarely code does not run after upload
+* Remove C14!
 * probably should move A2_CS off gpio46
 * Use PCB trace antenna for main Antenna?
 * move away from JST SH?
