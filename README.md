@@ -27,6 +27,7 @@ Rotini can be entirely manufactured and assembled by JLCPCB! THey will need the 
 * TVS diode protection for GPIO pins (including LED drivers)
 * Hookup accelerometer interrupt pins
 * Remove C14!
+* use pogopads instead of solder jumpers for bootstraping 
 * probably should move A2_CS off gpio46
 * Use PCB trace antenna for main Antenna?
 * move away from JST SH?
