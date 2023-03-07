@@ -4596,7 +4596,7 @@
     (property "Sheetfile" "Rotini-Hardware.kicad_sch")
     (property "Sheetname" "")
     (path "/29d45ad7-51d4-4a12-8707-4de911976497")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP2" (at 0 2.2 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 32a33dc1-b729-4e76-8ec7-bccb06f2aa37)
@@ -4646,7 +4646,7 @@
     (property "Sheetfile" "Rotini-Hardware.kicad_sch")
     (property "Sheetname" "")
     (path "/1737ca0c-02e8-4d1f-80af-8bd7748aeb8c")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP2" (at 0.1 1.8 180 unlocked) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8acf3d98-53ac-4a73-8990-e72976f28c78)
@@ -4672,7 +4672,7 @@
     (property "Sheetfile" "ExpressLRS-RX.kicad_sch")
     (property "Sheetname" "ExpressLRS-RX")
     (path "/72bba200-e8f0-4176-acbf-4460b61b53f8/f0d319f8-fe8d-43d3-9bf0-f7b425324b72")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP60" (at 0 2.2 90) (layer "B.SilkS") hide
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify mirror))
       (tstamp 9815c821-1550-463a-b6bd-ebfe249ee5b1)
@@ -4722,7 +4722,7 @@
     (property "Sheetfile" "Rotini-Hardware.kicad_sch")
     (property "Sheetname" "")
     (path "/a7ee08d3-9a6f-49bc-a674-f012c03a9946")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J208" (at 0 4.25 270 unlocked) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp bdb5bbd4-9668-4b9c-ac09-a405a4afd13f)
@@ -4749,7 +4749,7 @@
     (property "Sheetfile" "Rotini-Hardware.kicad_sch")
     (property "Sheetname" "")
     (path "/054ab3cf-c3e8-45f0-a79b-77bcbcff4009")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP1" (at 0 2 180 unlocked) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 44b406b1-0a88-4c47-81b8-7eba5b582725)
@@ -4773,7 +4773,7 @@
     (property "Sheetfile" "Rotini-Hardware.kicad_sch")
     (property "Sheetname" "")
     (path "/8be13e6c-326c-4cfb-9164-70589d25fcdc")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J207" (at 0 4.25 270 unlocked) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 82c326cf-dffc-46df-8698-46b001ce2211)
@@ -5387,7 +5387,7 @@
     (property "Sheetfile" "Rotini-Hardware.kicad_sch")
     (property "Sheetname" "")
     (path "/d8a08358-31a4-46f9-b7dc-fc49fef44355")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP1" (at 0 2.2 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b139931e-30ff-4f82-8675-6eedeb19e849)
@@ -5437,7 +5437,7 @@
     (property "Sheetfile" "Rotini-Hardware.kicad_sch")
     (property "Sheetname" "")
     (path "/58949761-941c-45c7-9e19-c6bcb206bbae")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J206" (at 0 4.25 90 unlocked) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5c0ce68c-ea12-4e99-8fc5-0df5b7ff0cb0)
@@ -5491,7 +5491,7 @@
     (property "Sheetfile" "Rotini-Hardware.kicad_sch")
     (property "Sheetname" "")
     (path "/71199c21-344e-4c20-bd4d-d6afb2acf1ee")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J205" (at 0 4.25 90 unlocked) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e78afb1d-d287-4561-bbb8-4286cab2d94d)
@@ -5518,7 +5518,7 @@
     (property "Sheetfile" "Rotini-Hardware.kicad_sch")
     (property "Sheetname" "")
     (path "/d6ec1c6f-d87a-45ec-8bb2-e2eb8c360218")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP3" (at 0 4.3 180 unlocked) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6d86b494-e6c5-4b49-a8e4-bcdb3b5028bb)
