@@ -505,9 +505,6 @@
         (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/8a42e13d-ed03-4053-bea9-6b241e81b50a"
           (reference "#PWR0152") (unit 1)
         )
-        (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/c8ae6305-850c-49e4-9b5b-36e9c53035a5"
-          (reference "#PWR0175") (unit 1)
-        )
       )
     )
   )
@@ -538,9 +535,6 @@
         (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/8a42e13d-ed03-4053-bea9-6b241e81b50a"
           (reference "Q31") (unit 1)
         )
-        (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/c8ae6305-850c-49e4-9b5b-36e9c53035a5"
-          (reference "Q33") (unit 1)
-        )
       )
     )
   )
@@ -570,9 +564,6 @@
         (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/8a42e13d-ed03-4053-bea9-6b241e81b50a"
           (reference "R31") (unit 1)
         )
-        (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/c8ae6305-850c-49e4-9b5b-36e9c53035a5"
-          (reference "R34") (unit 1)
-        )
       )
     )
   )
@@ -597,9 +588,6 @@
       (project "Rotini-Hardware"
         (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/8a42e13d-ed03-4053-bea9-6b241e81b50a"
           (reference "#PWR0121") (unit 1)
-        )
-        (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/c8ae6305-850c-49e4-9b5b-36e9c53035a5"
-          (reference "#PWR0173") (unit 1)
         )
       )
     )
@@ -631,9 +619,6 @@
         (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/8a42e13d-ed03-4053-bea9-6b241e81b50a"
           (reference "Q30") (unit 1)
         )
-        (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/c8ae6305-850c-49e4-9b5b-36e9c53035a5"
-          (reference "Q32") (unit 1)
-        )
       )
     )
   )
@@ -662,9 +647,6 @@
       (project "Rotini-Hardware"
         (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/8a42e13d-ed03-4053-bea9-6b241e81b50a"
           (reference "R30") (unit 1)
-        )
-        (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/c8ae6305-850c-49e4-9b5b-36e9c53035a5"
-          (reference "R33") (unit 1)
         )
       )
     )
@@ -695,9 +677,6 @@
         (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/8a42e13d-ed03-4053-bea9-6b241e81b50a"
           (reference "R32") (unit 1)
         )
-        (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/c8ae6305-850c-49e4-9b5b-36e9c53035a5"
-          (reference "R35") (unit 1)
-        )
       )
     )
   )
@@ -722,9 +701,6 @@
       (project "Rotini-Hardware"
         (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/8a42e13d-ed03-4053-bea9-6b241e81b50a"
           (reference "#PWR0122") (unit 1)
-        )
-        (path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/c8ae6305-850c-49e4-9b5b-36e9c53035a5"
-          (reference "#PWR0174") (unit 1)
         )
       )
     )
