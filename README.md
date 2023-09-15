@@ -12,9 +12,6 @@ Rotini is the smallest all-in-one melty brain control system in the world! Rotin
 * SY8253ADC switching regulator provides up to 1A at 3.3V. Maximum input voltage of 27V!
 * USB-C port provides swift and robust serial programming interface
 
-## Eratta
-* C14 SHOULD NOT BE INCLUDED. Do not include it in the BOM. Including C14 will cause inconsistent boot behavior
-
 ## Manufacturing
 ⚠️ **Beware: we offer these files without warranty of any kind, express or implied. Use them at your own risk.**
 
