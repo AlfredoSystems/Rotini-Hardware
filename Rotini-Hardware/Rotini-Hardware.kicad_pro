@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -425,7 +425,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.19,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -511,10 +511,6 @@
     [
       "72bba200-e8f0-4176-acbf-4460b61b53f8",
       "ExpressLRS-RX"
-    ],
-    [
-      "8a42e13d-ed03-4053-bea9-6b241e81b50a",
-      "LED1"
     ]
   ],
   "text_variables": {}

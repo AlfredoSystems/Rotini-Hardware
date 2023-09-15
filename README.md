@@ -18,18 +18,7 @@ Rotini is the smallest all-in-one melty brain control system in the world! Rotin
 ## Manufacturing
 ⚠️ **Beware: we offer these files without warranty of any kind, express or implied. Use them at your own risk.**
 
-Rotini can be entirely manufactured and assembled by JLCPCB! They will need the gerber, BOM, and pick-and-place files found in this repo. The one caveat is JLC does not have a 400g accelerometer in their library. There are three ways to get the 400g accelerometer rotini needs on board:
-1) Order H3LIS331DL via JLCPCBs global part sourcing system well before ordering your boards. This is the best way to do it but will add a few weeks to the lead time.
-2) Order the H3LIS331DL break out from Sparkfun. This can be soldered onto Rotini with standard male dupont headers. Easy and fast but is the least clean solution.
-3) Order H3LIS331DL chips yourself and solder them on with a hot air gun. Not recommended but is the fastest solution that avoids the sparkfun breakout.
+Rotini can be entirely manufactured and assembled by JLCPCB! They will need the gerber, BOM, and pick-and-place files found in this repo. The one caveat is JLC does not have a 400g accelerometer in their library. You will need to order H3LIS331DL via JLCPCBs global part sourcing system well before ordering your boards.
 
-## Possible features for V3
+## Possible features for V4
 * TVS diode protection for GPIO pins (including LED drivers)
-* Hookup accelerometer interrupt pins
-* Remove C14!
-* use pogopads instead of solder jumpers for bootstraping 
-* probably should move A2_CS off gpio46
-* Use PCB trace antenna for main Antenna?
-* move away from JST SH?
-* option to provide 3.3v or Vin to leds?
-* remove pins for h3lis Sparkfun breakout?
