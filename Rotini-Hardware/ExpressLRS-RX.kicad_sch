@@ -2889,6 +2889,10 @@
 		(uuid "0344fbe0-c3b5-4d9d-bc91-0a45114b8547")
 	)
 	(no_connect
+		(at 184.15 133.35)
+		(uuid "09f8bd1d-56ba-4bc3-aa04-413b1a5389c8")
+	)
+	(no_connect
 		(at 124.46 78.74)
 		(uuid "4c4f1dd4-fcd7-43e9-98c1-9ef427296a61")
 	)
@@ -2923,10 +2927,6 @@
 	(no_connect
 		(at 170.18 76.2)
 		(uuid "7bbd375a-e95f-453e-8cf2-539ab788791a")
-	)
-	(no_connect
-		(at 184.15 133.35)
-		(uuid "c7e6fc43-51e2-404a-a13f-efa9806ba134")
 	)
 	(wire
 		(pts
@@ -8102,6 +8102,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Antenna_Chip")
+		(at 181.61 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c523f5de-1bb7-47be-bf04-3bc19037c40f")
+		(property "Reference" "J9"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RFANT3216120A5T"
+			(at 181.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 179.07 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Walsin_TechCorp-RFANT3216120A5T/C127629"
+			(at 179.07 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C127629"
+			(at 181.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d69c4cd8-acad-4c9b-ad74-b055aac894b9")
+		)
+		(pin "2"
+			(uuid "861b1dcb-e7b1-4275-b647-7e646c1413f1")
+		)
+		(instances
+			(project "Rotini-Hardware"
+				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/72bba200-e8f0-4176-acbf-4460b61b53f8"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 119.38 180)
 		(unit 1)
@@ -8389,90 +8467,6 @@
 			(project "Rotini-Hardware"
 				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/72bba200-e8f0-4176-acbf-4460b61b53f8"
 					(reference "U71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Antenna_Chip")
-		(at 181.61 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb6fa24c-5b3d-498e-b930-f0da627e4f99")
-		(property "Reference" "J61"
-			(at 181.61 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RFANT3216120A5T"
-			(at 181.61 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 179.07 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Antennas_Shenzhen-Kinghelm-Elec-Shenzhen-Kinghelm-Elec-KH3216-A55_C484541.html"
-			(at 179.07 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C484541"
-			(at 181.61 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be46f268-1505-486a-97d7-81600df28a5f")
-		)
-		(pin "2"
-			(uuid "393a100d-e214-4e03-bdc4-20f8ddf04804")
-		)
-		(instances
-			(project "Rotini-Hardware"
-				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3/72bba200-e8f0-4176-acbf-4460b61b53f8"
-					(reference "J61")
-					(unit 1)
-				)
-			)
-			(project "NoKi"
-				(path "/e83aa78a-7ee8-4825-a22a-a2646798082a"
-					(reference "J14")
 					(unit 1)
 				)
 			)
