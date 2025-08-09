@@ -7893,7 +7893,7 @@
 		)
 		(uuid "1ebeed92-efae-4cb7-99e9-3b2b8d8c55b8")
 	)
-	(text "notes:\n- TVS diode protection?\n- all gpio breakouts should be both test pads and jstsh?\n- move pins to nicer numbers, easier to route\n- via size of 0.2/0.45 is the minimum to not pay a fee"
+	(text "notes:\n- TVS diode protection?\n- all gpio breakouts should be both test pads and jstsh?\n- move pins to nicer numbers, easier to route\n- via size of 0.2/0.45 is the minimum to not pay a fee\n- Fix esp8285 12K resistor?"
 		(exclude_from_sim no)
 		(at 300.99 66.04 0)
 		(effects
