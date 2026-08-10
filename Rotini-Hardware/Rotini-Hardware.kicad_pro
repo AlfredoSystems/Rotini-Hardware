@@ -637,7 +637,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${QUANTITY}"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -687,7 +687,7 @@
         "uuid": "bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
       }
     ],
-    "used_designators": "Q1,J14,R7,R15-18,R23-24,R26-27,R29,R33-37,D3,D6-8,#PWR10-17,#PWR24,#PWR31,#PWR35,#PWR44-46,#PWR48,#PWR50-51,#PWR56,#PWR60-62,#PWR75,#PWR77,#PWR106-107,#PWR112,#PWR116,#PWR121,#PWR148,#PWR173,C14-15,C18,C24-28,C30,C32,C34,C37-38,SW1-2,JP1,TP6,TP8-9,TP20-21,U4-5,U7,U9,U11,U17-18",
+    "used_designators": "Q1,J14,R7,R15-18,R23-24,R26-27,R29,R33-39,R44-45,D3,D6-8,#PWR10-21,#PWR24,#PWR31,#PWR35,#PWR44-46,#PWR48,#PWR50-51,#PWR56,#PWR60-62,#PWR75,#PWR77,#PWR106-107,#PWR112,#PWR116,#PWR121,#PWR148,#PWR173,C14-15,C18,C24-28,C30,C32,C34,C37-38,SW1-2,JP1,TP6,TP8-9,TP20-21,U4-7,U9,U11,U17-18",
     "variants": []
   },
   "sheets": [
