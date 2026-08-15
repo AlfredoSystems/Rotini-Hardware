@@ -7536,12 +7536,6 @@
 		(uuid "496aaa60-5fec-48b7-a4de-f148e1a78929")
 	)
 	(junction
-		(at 358.14 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a759071-7750-4af8-a67c-8b3a7294753d")
-	)
-	(junction
 		(at 335.28 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7762,12 +7756,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aba3644d-1669-4a0d-b69e-1b0e69a5ff5b")
-	)
-	(junction
-		(at 320.04 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac8ecdef-0df3-49ca-a156-e1cfca80fb9c")
 	)
 	(junction
 		(at 52.07 39.37)
@@ -8283,16 +8271,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 109.22) (xy 358.14 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17742de7-b245-4aa5-b8e3-ea5926c51f71")
-	)
-	(wire
-		(pts
 			(xy 208.28 41.91) (xy 210.82 41.91)
 		)
 		(stroke
@@ -8593,7 +8571,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 96.52) (xy 320.04 96.52)
+			(xy 317.5 96.52) (xy 363.22 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8970,16 +8948,6 @@
 			(type default)
 		)
 		(uuid "75db8b09-7a8e-4fc8-9b42-d3ab20dc62a0")
-	)
-	(wire
-		(pts
-			(xy 320.04 96.52) (xy 363.22 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "760229f6-cb47-4d40-b244-dd6e166065cf")
 	)
 	(wire
 		(pts
@@ -9473,16 +9441,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 96.52) (xy 320.04 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeb4b76b-bb2b-4b55-9090-9607cb178827")
-	)
-	(wire
-		(pts
 			(xy 252.73 132.08) (xy 261.62 132.08)
 		)
 		(stroke
@@ -9863,7 +9821,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 109.22) (xy 363.22 109.22)
+			(xy 317.5 109.22) (xy 363.22 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9880,16 +9838,6 @@
 			(type default)
 		)
 		(uuid "d3868d86-96b5-4088-92fd-8b3d1c01a1f8")
-	)
-	(wire
-		(pts
-			(xy 358.14 91.44) (xy 358.14 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6583ed4-9785-4de9-b0a7-699cdbfb1807")
 	)
 	(wire
 		(pts
@@ -20651,95 +20599,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 320.04 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b544e7c2-6944-41ba-b1b5-8a4a2bebc67d")
-		(property "Reference" "TP5"
-			(at 317.5 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2_EN"
-			(at 317.5 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AlfredoFootprints:PogoPad1"
-			(at 325.12 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 320.04 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 320.04 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9259a38d-0267-422a-a3fe-4173acd980ac")
-		)
-		(instances
-			(project "Rotini-Hardware"
-				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 196.85 24.13 0)
 		(mirror x)
@@ -21859,95 +21718,6 @@
 			(project "Rotini-Hardware"
 				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
 					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 358.14 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d6ec1c6f-d87a-45ec-8bb2-e2eb8c360218")
-		(property "Reference" "TP3"
-			(at 355.6 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 355.6 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AlfredoFootprints:PogoPad1"
-			(at 363.22 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 358.14 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 358.14 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ff4705e-9081-4ee2-b205-740545646191")
-		)
-		(instances
-			(project "Rotini-Hardware"
-				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
