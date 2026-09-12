@@ -5972,7 +5972,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_EYANGShenzhen-Eyang-Tech-Development-EYANGShenzhen-Eyang-Tech-Development-C0402C0G1R2C500NTB_C115613.html"
+		(property "Datasheet" ""
 			(at 154.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5994,7 +5994,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C115613"
+		(property "LCSC" "C1551"
 			(at 154.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6141,7 +6141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_EYANGShenzhen-Eyang-Tech-Development-EYANGShenzhen-Eyang-Tech-Development-C0402C0G1R2C500NTB_C115613.html"
+		(property "Datasheet" ""
 			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6163,7 +6163,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C115613"
+		(property "LCSC" "C1551"
 			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7150,7 +7150,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_Darfon-Elec-Darfon-Elec-C1005NP0508CGTS_C147327.html"
+		(property "Datasheet" ""
 			(at 146.05 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7172,7 +7172,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C147327"
+		(property "LCSC" "C1544"
 			(at 146.05 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8191,7 +8191,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_EYANGShenzhen-Eyang-Tech-Development-EYANGShenzhen-Eyang-Tech-Development-C0402C0G0R8C500NTB_C115605.html"
+		(property "Datasheet" ""
 			(at 118.11 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8213,7 +8213,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C115605"
+		(property "LCSC" "C76915 "
 			(at 118.11 144.78 0)
 			(hide yes)
 			(show_name no)

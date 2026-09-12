@@ -2820,7 +2820,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.1 -1.35)
@@ -3264,7 +3264,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.8 -1.2)
@@ -4117,7 +4117,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_EYANGShenzhen-Eyang-Tech-Development-EYANGShenzhen-Eyang-Tech-Development-C0402C0G1R2C500NTB_C115613.html"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4141,7 +4141,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C115613"
+		(property "LCSC" "C1551"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4383,7 +4383,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.8 -1.2)
@@ -4838,7 +4838,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.1 -1.35)
@@ -8976,7 +8976,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_Darfon-Elec-Darfon-Elec-C1005NP0508CGTS_C147327.html"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9000,7 +9000,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C147327"
+		(property "LCSC" "C1544"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10128,7 +10128,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.1 -1.35)
@@ -12418,7 +12418,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C502546"
+		(property "LCSC" "C2827704"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14272,7 +14272,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.1 -1.35)
@@ -16445,7 +16445,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_EYANGShenzhen-Eyang-Tech-Development-EYANGShenzhen-Eyang-Tech-Development-C0402C0G1R2C500NTB_C115613.html"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16469,7 +16469,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C115613"
+		(property "LCSC" "C1551"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16876,7 +16876,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.1 -1.35)
@@ -17503,7 +17503,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.1 -1.35)
@@ -22657,7 +22657,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.1 -1.35)
@@ -22915,7 +22915,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.1 -1.35)
@@ -24333,7 +24333,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_EYANGShenzhen-Eyang-Tech-Development-EYANGShenzhen-Eyang-Tech-Development-C0402C0G0R8C500NTB_C115605.html"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24357,7 +24357,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C115605"
+		(property "LCSC" "C76915 "
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25820,8 +25820,8 @@
 			)
 		)
 	)
-	(gr_text "Rotini V4"
-		(at -4.3 -8.7 0)
+	(gr_text "Rotini V4.0"
+		(at -5.1 -8.7 0)
 		(layer "F.SilkS")
 		(uuid "c0f04b27-22ec-404a-85c1-961f7f5e3a93")
 		(effects
@@ -26024,7 +26024,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Rotini V4\n© 2026\nAlfredo Systems"
+	(gr_text "Rotini V4.0\n© 2026\nAlfredo Systems"
 		(at 16.2 -4.3 0)
 		(layer "B.SilkS")
 		(uuid "fd0d5006-2cf9-4ff4-a3c7-8c7580b17b17")
