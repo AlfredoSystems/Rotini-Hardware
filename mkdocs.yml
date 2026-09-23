@@ -1,6 +1,6 @@
 site_name: Rotini
 site_description: Practical documentation for the Rotini meltybrain control board (V3)
-site_url: https://alfredosystems.github.io/Rotini-Hardware/
+site_url: https://www.alfredosys.com/Rotini-Hardware/
 repo_url: https://github.com/AlfredoSystems/Rotini-Hardware
 repo_name: AlfredoSystems/Rotini-Hardware
 edit_uri: edit/main/docs/
@@ -8,8 +8,8 @@ copyright: MIT License &copy; Alfredo Systems
 
 nav:
   - Overview: index.md
-  - "The Receiver (ESP8285)": receiver.md
   - "The Brain (ESP32-S2)": brain.md
+  - "The Receiver (ESP8285)": receiver.md
 
 theme:
   name: material

@@ -76,7 +76,7 @@ The pin constants at the top of `Rotini-Example.ino` already match Rotini V3. Th
 
 Upload it exactly as you uploaded Blink. Open **Tools → Serial Monitor** at 115200 baud to see output.
 
-The example expects the receiver to already be running ExpressLRS. See [The Receiver](receiver.md). Without a link, the robot stays in the disconnected state and the motors are held off.
+The example expects the receiver to be running ExpressLRS. Once the S2 is programmed, flash the receiver through it as described in [The Receiver](receiver.md). Without a link, the robot stays in the disconnected state and the motors are held off.
 
 !!! danger "Motors off while programming"
     Disconnect ESC power or remove the weapon and drive motors before uploading anything. The FOO and BAR pins float while the bootloader runs, and a badly behaved ESC can read that as a command.
