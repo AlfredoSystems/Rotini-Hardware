@@ -8690,7 +8690,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C76915 "
+		(property "LCSC" "C76915"
 			(at 118.11 144.78 0)
 			(hide yes)
 			(show_name no)

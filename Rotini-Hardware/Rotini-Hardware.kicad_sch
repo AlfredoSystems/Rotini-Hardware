@@ -4803,248 +4803,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q128JVS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "W25Q128JVS"
-				(at 7.62 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-				(at 0 22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
-				(at 0 27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flash memory SPI QPI DTR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "W25Q128JVS_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "W25Q128JVS_1_1"
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "DO/IO_{1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "~{WP}/IO_{2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "DI/IO_{0}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "~{HOLD}/~{RESET}/IO_{3}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_Protection:USBLC6-2P6"
 			(pin_names
 				(hide yes)
@@ -7177,7 +6935,7 @@
 		)
 		(uuid "0d56a157-6353-4bc9-b4ac-af45aa31a3a5")
 	)
-	(text "notes:\n- via size of 0.2/0.45 is the minimum to not pay a fee\n- Going forward the 8285 will use ELRS FW: BETAFPV 2.4GHz Lite RX\n\nTODO FOR V4.1:\n- rename netlists, labels for clarity\n- remove W25Q128JVSIQ?\n- LEDS are too bright\n\nFixed for V4.1:\n- R33, R35 MUST BE 10K\n- R34, R36 MUST BE ~5K\n- added 100nF cap to 8285 EN line\n- replace 6 pin header with pads for tweesers\n- give the esp32-S3 control of the 8285 boot and EN pins\n\nFIXED for V4:\n- shrunk component packages\n- Swap ESP32-S2 out for ESP32-S3\n- high data rate telemetry and/or logging:\n	- MCU antenna for wifi/BLE telemetry\n	- W25Q128JVSIQ has 128 MB of flash\n	- ELRS AirPort -> Not viable\n- SMF18A on VIN protects buck converter from ESC active breaking spikes\n- esp8285 12K resistor\n- ESC GPIO protection and pullup for DSHOT\n- removed SNS VER\n- USBLC6-2P6 for USB protection\n- ensure ELRS serial passthough update works before commiting to no trace antenna (IT WORKS!)\n"
+	(text "notes:\n- via size of 0.2/0.45 is the minimum to not pay a fee\n- Going forward the 8285 will use ELRS FW: BETAFPV 2.4GHz Lite RX\n\nTODO FOR V4.1:\n- rename netlists, labels for clarity\n\nFixed for V4.1:\n- R33, R35 MUST BE 10K\n- R34, R36 MUST BE ~5K\n- added 100nF cap to 8285 EN line\n- replace 6 pin header with pads for tweesers\n- give the esp32-S3 control of the 8285 boot and EN pins\n- LEDS are too bright\n- remove W25Q128JVSIQ\n\nFIXED for V4:\n- shrunk component packages\n- Swap ESP32-S2 out for ESP32-S3\n- high data rate telemetry and/or logging:\n	- MCU antenna for wifi/BLE telemetry\n	- W25Q128JVSIQ has 128 MB of flash\n	- ELRS AirPort -> Not viable\n- SMF18A on VIN protects buck converter from ESC active breaking spikes\n- esp8285 12K resistor\n- ESC GPIO protection and pullup for DSHOT\n- removed SNS VER\n- USBLC6-2P6 for USB protection\n- ensure ELRS serial passthough update works before commiting to no trace antenna (IT WORKS!)\n"
 		(exclude_from_sim no)
 		(at 300.99 66.04 0)
 		(effects
@@ -7325,12 +7083,6 @@
 		(uuid "03c7f780-fc1b-487a-b30d-567d6c09fdc8")
 	)
 	(junction
-		(at -24.13 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0882b462-5a5e-4e4a-a2d7-1a5e7821fb82")
-	)
-	(junction
 		(at 66.04 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7353,12 +7105,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1af24c9a-19c2-46dc-8418-5f034ea2f43d")
-	)
-	(junction
-		(at -24.13 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b8593c7-9f9a-4be6-93e8-888e6f0397dc")
 	)
 	(junction
 		(at 116.84 72.39)
@@ -7517,12 +7263,6 @@
 		(uuid "72a0042a-8e53-4a68-ac6f-8de8969bf972")
 	)
 	(junction
-		(at -45.72 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74869100-0764-4803-8617-ecd4e0acb5a2")
-	)
-	(junction
 		(at 52.07 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7545,12 +7285,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "805b8125-c9a0-47dc-8509-b48d06b5eca7")
-	)
-	(junction
-		(at -45.72 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8340f364-391c-418d-a3b2-ddcfcf9c2078")
 	)
 	(junction
 		(at 107.95 39.37)
@@ -7769,12 +7503,6 @@
 		(uuid "d54de2d1-7882-4d99-bacb-b99789fb4a5a")
 	)
 	(junction
-		(at -49.53 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5e46471-01a0-4c57-a5f1-704762394530")
-	)
-	(junction
 		(at 226.06 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7803,12 +7531,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaf2a213-486f-4244-b71a-990157c31758")
-	)
-	(junction
-		(at -33.02 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed1fcedc-81f7-47b1-9f5b-7e65e4ab7ff6")
 	)
 	(junction
 		(at 30.48 170.18)
@@ -8246,16 +7968,6 @@
 	)
 	(wire
 		(pts
-			(xy -49.53 104.14) (xy -49.53 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "277eadaf-180a-463b-a8d1-8d603670d7b5")
-	)
-	(wire
-		(pts
 			(xy 109.22 87.63) (xy 114.3 87.63)
 		)
 		(stroke
@@ -8406,16 +8118,6 @@
 	)
 	(wire
 		(pts
-			(xy -33.02 91.44) (xy -33.02 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e69f6a6-fff7-4823-8ea5-78867d8937b5")
-	)
-	(wire
-		(pts
 			(xy 209.55 48.26) (xy 212.09 48.26)
 		)
 		(stroke
@@ -8526,26 +8228,6 @@
 	)
 	(wire
 		(pts
-			(xy -43.18 116.84) (xy -45.72 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da19004-8997-4d6f-be23-46a4b408a5be")
-	)
-	(wire
-		(pts
-			(xy -16.51 107.95) (xy -16.51 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da828eb-5646-4995-a223-a0f7fd4c5557")
-	)
-	(wire
-		(pts
 			(xy 162.56 111.76) (xy 181.61 111.76)
 		)
 		(stroke
@@ -8573,16 +8255,6 @@
 			(type default)
 		)
 		(uuid "51a89b13-a5c9-4bb0-b045-790372f4f55c")
-	)
-	(wire
-		(pts
-			(xy -16.51 124.46) (xy -24.13 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "532e23d7-bddc-4621-8e52-b42c3274df8a")
 	)
 	(polyline
 		(pts
@@ -8633,16 +8305,6 @@
 			(type default)
 		)
 		(uuid "5d951a07-50a9-4674-a83f-08d726d019c5")
-	)
-	(wire
-		(pts
-			(xy -49.53 91.44) (xy -45.72 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fa1c77f-74a2-40e6-a016-c12e491c5d8d")
 	)
 	(wire
 		(pts
@@ -8724,16 +8386,6 @@
 		)
 		(uuid "6725e0dc-0ff8-494f-b77f-b38a51f7dadf")
 	)
-	(wire
-		(pts
-			(xy -16.51 91.44) (xy -24.13 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6733136e-09c4-4d4f-a9f0-25c4ea6b593a")
-	)
 	(polyline
 		(pts
 			(xy 80.01 55.88) (xy 139.7 55.88)
@@ -8793,16 +8445,6 @@
 			(type default)
 		)
 		(uuid "71efe323-900c-4125-aeff-e18940540d35")
-	)
-	(wire
-		(pts
-			(xy -52.07 106.68) (xy -43.18 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "720f22cd-434a-47ce-94c5-fdb1113efc1a")
 	)
 	(wire
 		(pts
@@ -8986,16 +8628,6 @@
 	)
 	(wire
 		(pts
-			(xy -45.72 99.06) (xy -45.72 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b625319-dff2-468e-a4ec-8b1d9a9a1e93")
-	)
-	(wire
-		(pts
 			(xy 111.76 123.19) (xy 111.76 90.17)
 		)
 		(stroke
@@ -9033,16 +8665,6 @@
 			(type default)
 		)
 		(uuid "94489587-2c0e-4585-a8b2-1a03ccc1822e")
-	)
-	(wire
-		(pts
-			(xy -45.72 114.3) (xy -43.18 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "946c15e9-dd5c-4deb-a81d-dd48f6611c36")
 	)
 	(wire
 		(pts
@@ -9163,16 +8785,6 @@
 			(type default)
 		)
 		(uuid "a1e1fbd3-3476-44db-9e00-08998b14f49c")
-	)
-	(wire
-		(pts
-			(xy -45.72 91.44) (xy -33.02 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a412fb3e-3adf-4da7-8486-33a7ee0bcab1")
 	)
 	(wire
 		(pts
@@ -9356,16 +8968,6 @@
 	)
 	(wire
 		(pts
-			(xy -52.07 111.76) (xy -43.18 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1f9286b-fcb2-40fc-845c-d47f3f2bab04")
-	)
-	(wire
-		(pts
 			(xy 124.46 123.19) (xy 111.76 123.19)
 		)
 		(stroke
@@ -9496,16 +9098,6 @@
 	)
 	(wire
 		(pts
-			(xy -24.13 91.44) (xy -33.02 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c095254f-f8da-497e-a48b-ec0a7afe88a5")
-	)
-	(wire
-		(pts
 			(xy 127 158.75) (xy 135.89 158.75)
 		)
 		(stroke
@@ -9563,16 +9155,6 @@
 			(type default)
 		)
 		(uuid "ca05a99e-98c0-44da-aef8-67c2c9809a67")
-	)
-	(wire
-		(pts
-			(xy -24.13 124.46) (xy -33.02 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca98d992-7b6b-42eb-b53c-5966fe598697")
 	)
 	(wire
 		(pts
@@ -9676,16 +9258,6 @@
 	)
 	(wire
 		(pts
-			(xy -49.53 104.14) (xy -43.18 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c6f661-87f6-444a-9cd8-3da376fe0d4e")
-	)
-	(wire
-		(pts
 			(xy 120.65 31.75) (xy 125.73 31.75)
 		)
 		(stroke
@@ -9703,16 +9275,6 @@
 			(type default)
 		)
 		(uuid "d3868d86-96b5-4088-92fd-8b3d1c01a1f8")
-	)
-	(wire
-		(pts
-			(xy -52.07 104.14) (xy -49.53 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d749f7e8-281d-40bb-b74e-2edc54731d64")
 	)
 	(polyline
 		(pts
@@ -9856,16 +9418,6 @@
 	)
 	(wire
 		(pts
-			(xy -45.72 116.84) (xy -45.72 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e978485e-cc7d-43d9-bec1-07d350c66cc5")
-	)
-	(wire
-		(pts
 			(xy 114.3 168.91) (xy 116.84 168.91)
 		)
 		(stroke
@@ -9893,16 +9445,6 @@
 			(type default)
 		)
 		(uuid "edcf39c9-188b-4b6a-a0c2-8ef4f9d887d8")
-	)
-	(wire
-		(pts
-			(xy -52.07 109.22) (xy -43.18 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "effc398d-cbc0-4103-bbb2-2d21a29a2423")
 	)
 	(wire
 		(pts
@@ -10013,16 +9555,6 @@
 			(type default)
 		)
 		(uuid "fccb35a3-0843-417f-b0d4-ac73398b4597")
-	)
-	(wire
-		(pts
-			(xy -16.51 113.03) (xy -16.51 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdfe1018-196f-4ae1-baef-3493d837563d")
 	)
 	(wire
 		(pts
@@ -10392,30 +9924,6 @@
 		(uuid "073475ec-6ffa-4686-9c4e-49207bbf9d71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.0556 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "W25Q_CS"
-		(shape input)
-		(at -52.07 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e44452d-26a7-4a0a-b04d-d8c5af35c27d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -63.049 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10955,54 +10463,6 @@
 			)
 		)
 	)
-	(global_label "S2_SCK"
-		(shape input)
-		(at -52.07 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9d61865b-1796-45eb-8936-fb5b35c1565c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -61.5371 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "S2_MOSI"
-		(shape input)
-		(at -52.07 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9ea73df1-56f6-41d6-8268-c89b85851f83")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -62.3838 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "ELRS_RX"
 		(shape input)
 		(at 39.37 66.04 180)
@@ -11192,30 +10652,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "S2_MISO"
-		(shape input)
-		(at -52.07 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb999a78-5b39-41f8-957e-9d2974b99ed7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -62.3838 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -13429,116 +12865,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
-		(at -33.02 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "10343bf2-e5aa-4821-bc8b-5352df8673bd")
-		(property "Reference" "U6"
-			(at -30.988 97.028 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVS"
-			(at -31.242 99.822 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-			(at -33.02 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/NOR-FLASH_Winbond-Elec-Winbond-Elec-W25Q128JVSIQ_C97521.html"
-			(at -33.02 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
-			(at -33.02 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C97521"
-			(at -33.02 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "a30ca570-1bcb-4723-987a-3740ef35a915")
-		)
-		(pin "3"
-			(uuid "8e645383-a194-42c9-a66f-8acee59dd7d1")
-		)
-		(pin "6"
-			(uuid "5273cc67-2c25-4436-9b41-e830dc8866e0")
-		)
-		(pin "2"
-			(uuid "13c9470a-84bb-4c86-81d8-4105e372bb01")
-		)
-		(pin "4"
-			(uuid "d482a0f4-c77c-4687-be05-77abf0e10bb0")
-		)
-		(pin "1"
-			(uuid "a0e48b23-e36f-4de6-b4c4-8b9760741dbc")
-		)
-		(pin "5"
-			(uuid "61688b51-3a01-4d51-a137-368f82fbf223")
-		)
-		(pin "7"
-			(uuid "d7398651-2c81-46bc-8f1d-497580fbd9e3")
-		)
-		(instances
-			(project "Rotini-Hardware"
-				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 218.44 24.13 0)
 		(mirror x)
@@ -14526,96 +13852,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at -45.72 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2928f5fc-ddc9-4d08-a3f2-32870d4cf550")
-		(property "Reference" "R37"
-			(at -41.91 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at -41.91 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at -47.498 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_UNI-ROYALUniroyal-Elec-UNI-ROYALUniroyal-Elec-0201WMF1002TEE_C473048.html"
-			(at -45.72 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at -45.72 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C473048"
-			(at -45.72 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f13fb8cd-5fea-4792-a77a-00fdd19ec75e")
-		)
-		(pin "2"
-			(uuid "23cefcdb-4ad0-40fd-847b-28c63d2e7fc1")
-		)
-		(instances
-			(project "Rotini-Hardware"
-				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 21.59 107.95 0)
 		(unit 1)
@@ -15249,97 +14485,6 @@
 			(project "Rotini-Hardware"
 				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
 					(reference "Q30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at -49.53 95.25 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4305a31e-2cf5-41b9-9290-2b8865a3dcc5")
-		(property "Reference" "R38"
-			(at -53.34 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at -53.34 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at -47.752 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_UNI-ROYALUniroyal-Elec-UNI-ROYALUniroyal-Elec-0201WMF1002TEE_C473048.html"
-			(at -49.53 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at -49.53 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C473048"
-			(at -49.53 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5ef2ae5-cfad-42df-ac28-9471f63c9a9b")
-		)
-		(pin "2"
-			(uuid "f113aada-6ad7-4853-8b5a-46b3023051bb")
-		)
-		(instances
-			(project "Rotini-Hardware"
-				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
-					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -16549,98 +15694,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at -16.51 110.49 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e45ed25-739e-47da-9c9e-52acbc8565f0")
-		(property "Reference" "C15"
-			(at -11.43 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at -9.398 108.712 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at -16.51 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_Murata-Electronics-Murata-Electronics-GRM033Z71A104KE14D_C161494.html"
-			(at -16.51 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at -16.51 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C161494"
-			(at -16.51 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98e4034e-7e1b-43bc-a6b5-be2f24649d7b")
-		)
-		(pin "2"
-			(uuid "4dc33fa5-67f4-4d0b-b02b-de632999348b")
-		)
-		(instances
-			(project "Rotini-Hardware"
-				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 212.09 24.13 0)
 		(mirror x)
 		(unit 1)
@@ -17327,84 +16380,6 @@
 			(project "Rotini-Hardware"
 				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
 					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -24.13 124.46 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "748cefd6-109d-4973-9039-a92e13eb9140")
-		(property "Reference" "#PWR018"
-			(at -24.13 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at -24.257 128.8542 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -24.13 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -24.13 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at -24.13 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "984567c4-ba1e-4063-9521-d5f5fbf3e94a")
-		)
-		(instances
-			(project "Rotini-Hardware"
-				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -18816,7 +17791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/771824-BZT52C5V6TTP/C725511"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C2827704"
 			(at 43.18 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -18838,7 +17813,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C725511"
+		(property "LCSC" "C2827704"
 			(at 43.18 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -18885,7 +17860,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "3.3K"
 			(at 67.31 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18906,7 +17881,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_YAGEO-YAGEO-RC0201FR-071KL_C138165.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/301745-RC01W332JT/C320840"
 			(at 67.31 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18928,7 +17903,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138165"
+		(property "LCSC" "C320840"
 			(at 67.31 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -21422,7 +20397,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "22K"
 			(at 67.31 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21443,7 +20418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_YAGEO-YAGEO-RC0201FR-071KL_C138165.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/479862-0201WMF2202TEE/C473469"
 			(at 67.31 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -21465,7 +20440,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138165"
+		(property "LCSC" "C473469"
 			(at 67.31 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -21654,84 +20629,6 @@
 			(project "Rotini-Hardware"
 				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
 					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at -24.13 91.44 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2455d0d-6912-4a3e-be47-e8daf51823a8")
-		(property "Reference" "#PWR019"
-			(at -24.13 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at -24.511 87.0458 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -24.13 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -24.13 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at -24.13 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5dd072f-a382-448a-bde6-7e3e81e19bc9")
-		)
-		(instances
-			(project "Rotini-Hardware"
-				(path "/bd9595a1-04f3-4fda-8f1b-e65ad874edd3"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
